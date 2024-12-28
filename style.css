@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to right, rgb(247, 50, 50) 0%, yellow 40%, rgb(55, 182, 55) 70%, rgb(70, 70, 239) 100%);
+    margin-top: 160px;
+    margin-left: 360px;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+h1{
+    animation: 2s ease-in-out;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+p{
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    margin: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, rgb(236, 69, 69) 0%, yellow 40%, rgb(40, 215, 40) 70%, rgb(73, 73, 228) 100%);
+}
